@@ -51,6 +51,8 @@ h1{
     border: 1px solid red;
     background:  #D18C1D;
     padding: 10px;
+    text-align: center;
+    font-size: 24px;
 }
 .box{
     width: 600px;
@@ -58,6 +60,7 @@ h1{
     background: #D1D631;
     border: 2px dotted black;
     font-size: 20px;
+    padding: 24px;
 }
 img{
     height: 200px;
@@ -70,7 +73,14 @@ img{
     border-radius: 50%;
     background: #C13434;
 }
-footer{
-    border: 3px dashed blue;
+/*footer*/
+a{
+    border-bottom: 3px dashed blue;
     background: #A1A1A1;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 16px;
+    font-size: 24px;
+    display: inline-block;
+
 }
