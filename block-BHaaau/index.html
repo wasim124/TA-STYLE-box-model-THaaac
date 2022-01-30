@@ -1,15 +1,75 @@
-<!---
-### Create a page according to the layout shown below
+<!DOCTYPE html>
+<html lang="en">
 
-![Box Model Exercise 6](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/box-model/ex-6.png)
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+    <title>Assignment 6</title>
+</head>
 
-#### Problems for exercise 2 in the layout
+<body>
+    <header>
+        <div class="wrapper">
+            <h1>The box model, box-sizing & box-shadow</h1>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="wrapper">
+                <h2>Exercise 1</h2>
+                <div class="box"></div>
+                <div class="circle1">
+                    <div class="circle aqua"></div>
+                    <p>Content</p>
+                    <div class=" circle blue">
+                    </div>
+                    <p>padding</p>
+                    <div class=" circle black">
+                    </div>
+                    <p>Border</p>
+                    <div class=" circle red">
+                    </div>
+                    <p>margin</p>
+                </div>
+                <hr>
+            </div>
+        </section>
+        <section>
+            <div class="wrapper">
+                <h2>Exercise2</h2>
+                <p>no border on these boxes</p>
+                <div class="cont">
+                    <div class="box1"></div>
+                    <div class="box1"></div>
+                    <div class="box1"></div>
+                </div>
+                <hr>
+            </div>
+        </section>
+        <section>
+            <div class="wrapper">
+                <p>1px border for these boxes</p>
+                <div class="cont">
+                    <div class="box1 border"></div>
+                    <div class="box1 border"></div>
+                    <div class="box1 border"></div>
+                </div>
+                <hr>
+            </div>
+        </section>
+        <section>
+            <div class="wrapper">
+                <p>1px border on these boxes but they are in same line</p>
+                <div class="cont">
+                    <div class="box1 border box-sizing"></div>
+                    <div class="box1 border box-sizing"></div>
+                    <div class="box1 border box-sizing"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
 
-- Each parent container has width of 600px and border of 1px;
-- Each children box has width 180px and height 100px as well as margin of 10px;
-- Each child box which is having border has border-width 1px.
-- Note in the first container the boxes do not have any border.
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper.
---->
+</html>
