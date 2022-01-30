@@ -61,6 +61,9 @@ table {
     width: 180px;
     display: inline-block;
   }
+  .box1{
+      width: 300px;
+  }
   .google{
     background-color: #FF6347;
   }
