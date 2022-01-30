@@ -1,0 +1,120 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* CSS start here */
+h1{
+  font-size: 30px;
+  padding: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.box1{
+  border: 5px solid black;
+  width: 180px;
+  height: 100px ;
+  margin: 10px;
+  padding :20px;
+  background-color: #B73434;
+  display: inline-block;
+}
+.box2{  
+  border: 5px double black;
+  width: 180px;
+  height: 100px ;
+  margin: 10px;
+  padding :  20px;
+  background-color: #B73434;
+  display: inline-block;
+}
+.box3{ 
+  border: 5px dashed black;
+  height: 100px ;
+  width: 180px;
+  margin: 10px;
+  padding :20px;
+  background-color: #B73434;
+  display:inline-block;
+
+}
+.box4{  
+  border: 5px   dotted black;
+  height: 100px ;
+  width: 180px;
+  margin: 10px;
+  padding :  20px;
+  background-color: #B73434;
+  display: inline-block;
+
+}
+.box5{ 
+  border: 3px  ;
+  height: 100px ;
+  width: 180px;
+  margin: 10px;
+  padding :  20px;
+  background-color: #B73434;
+  display:inline-block;
+
+}
+p{
+    font-size: 16px;
+    color: bisque;
+}
+
+.box6{
+    height: 300px ;
+    width: 180px;
+    padding :20px;
+    margin: 20px ;
+    outline: 15px solid purple;
+    border-top: 15px solid blue;
+    border-left: 15px solid green;
+    border-right: 15px solid pink;
+    border-bottom: 15px solid yellow; 
+    background-color: #B73434;
+}
